@@ -1,0 +1,19 @@
+{
+    "name": "hjson-to-json",
+    "version": "1.0.0",
+    "description": "NodejsConsoleApp1",
+    "main": "app.js",
+    "author": {
+        "name": ""
+    },
+    "dependencies": {
+        "commander": "^9.4.1",
+        "hjson": "^3.2.2"
+    },
+    "bin": {
+        "hjson-to-json": "app.js"
+    },
+    "scripts": {
+        "test": "mocha ./tests/tests.js"
+    }
+}
